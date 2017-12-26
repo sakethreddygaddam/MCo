@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sakethreddy.mco.profile">
+
+
+
+    <TextView
+        android:id="@+id/usernam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="139dp"
+        android:layout_marginStart="139dp"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+
+        android:text="Username" />
+    <TextView
+        android:id="@+id/uemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="139dp"
+        android:layout_marginStart="139dp"
+        android:textColor="@color/orange"
+        android:textSize="15sp"
+        android:layout_below="@+id/usernam"
+        android:text="Email" />
+
+    <ImageView
+        android:id="@+id/profileimg"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+
+        android:layout_marginBottom="31dp"
+        app:srcCompat="@drawable/profile"
+        android:layout_above="@+id/usernam"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
